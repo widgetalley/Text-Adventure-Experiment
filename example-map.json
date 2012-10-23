@@ -1,0 +1,19 @@
+"cabin.kitchen": {
+	"exits": {
+		"west": "wartrace_lake.stairway_of_magic_puppies",
+		"south": "cabin.livingroom",
+		"refrigerator": "narnia"
+	},
+	"items": ["knife", "potatoes", "oranges"]
+}
+
+"cabin.livingroom": {
+	"exits": {
+		"northwest": "cabin.kitchen",
+		"northeast": "cabin.throneroom",
+		"south": "cabin.bedroom",
+		"down": "cabin.basement"
+	},
+	"items": ["$5"],
+	"people": ["Tim the Enchanter"]
+}
